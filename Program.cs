@@ -1,8 +1,14 @@
+namespace tpmodul7_kelompok_5
 ﻿using System;
 using System.IO;
 using System.Security.Cryptography.X509Certificates;
 using System.Text.Json;
 using System.Text.Json.Serialization;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using tpmodul7_kelompok_5;
 
 public class DataMahasiswa103022300064
 {
@@ -68,11 +74,18 @@ public class KuliahMahasiswa103022300064
         }
     }
 }
-class Program
+
 {
-    static void Main(string[] args)
+    class Program
     {
-        DataMahasiswa103022300064.readJSON();
-        KuliahMahasiswa103022300064.readJSON();
+        static void Main(string[] args)
+        {
+            DataMahasiswa_103022300043.ReadJSON();
+            Console.WriteLine();
+            KuliahMahasiswa_103022300043.ReadJSON();
+
+            DataMahasiswa103022300064.readJSON();
+            KuliahMahasiswa103022300064.readJSON();
+        }
     }
 }
