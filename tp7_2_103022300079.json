@@ -1,0 +1,16 @@
+{
+	"matkul": [
+		{
+			"kode": "IF1234",
+			"nama": "Pemrograman Lanjut"
+		},
+		{
+			"kode": "IF2345",
+			"nama": "Struktur Data"
+		},
+		{
+			"kode": "IF3456",
+			"nama": "Basis Data"
+		}
+	]
+}
