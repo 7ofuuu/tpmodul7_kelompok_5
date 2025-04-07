@@ -6,5 +6,8 @@ public class Program
     {
         DataMahasiswa103022330150 dataMahasiswa = new DataMahasiswa103022330150();
         dataMahasiswa.ReadJSON();
+
+        KuliahMahasiswa103022330150 kuliahMahasiswa = new KuliahMahasiswa103022330150();
+        kuliahMahasiswa.ReadJSON();
     }
 }
