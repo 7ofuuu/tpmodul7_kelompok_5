@@ -8,6 +8,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+
 using tpmodul7_kelompok_5;
 
 public class DataMahasiswa103022300064
@@ -75,17 +76,23 @@ public class KuliahMahasiswa103022300064
     }
 }
 
+
 {
     class Program
     {
         static void Main(string[] args)
         {
+
+            DataMahasiswa103022330117.ReadJSON();
+            KuliahMahasiswa103022330117.ReadJSON();
+
             DataMahasiswa_103022300043.ReadJSON();
             Console.WriteLine();
             KuliahMahasiswa_103022300043.ReadJSON();
 
             DataMahasiswa103022300064.readJSON();
             KuliahMahasiswa103022300064.readJSON();
+
         }
     }
 }
