@@ -8,7 +8,7 @@ using System.Text.Json;
 using tpmodul7_kelompok_5;
 
 
-namespace TPMOD7_Kelompok_6
+namespace tpmodul7_kelompok_5
 {
     class Program
     {
@@ -16,7 +16,7 @@ namespace TPMOD7_Kelompok_6
         {
             DataMahasiswa_103022300043.ReadJSON();
             Console.WriteLine();
-            //KuliahMahasiswa103022300010.ReadJSON();
+            KuliahMahasiswa_103022300043.ReadJSON();
         }
     }
 }
