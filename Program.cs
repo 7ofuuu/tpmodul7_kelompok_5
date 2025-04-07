@@ -1,5 +1,19 @@
 
-﻿using System;
+using tpmodul7_kelompok_5;
+
+public class Program
+{
+    public static void Main(string[] args)
+    {
+        DataMahasiswa103022330150 dataMahasiswa = new DataMahasiswa103022330150();
+        dataMahasiswa.ReadJSON();
+
+        KuliahMahasiswa103022330150 kuliahMahasiswa = new KuliahMahasiswa103022330150();
+        kuliahMahasiswa.ReadJSON();
+    }
+}
+
+using System;
 using System.IO;
 using System.Text.Json;
 using System.Collections.Generic;
@@ -44,7 +58,6 @@ namespace TP7
         }
     }
 }
-=======
 
 // See https://aka.ms/new-console-template for more information
 //using System;
@@ -168,5 +181,3 @@ public class KuliahMahasiswa103022300064
         }
     }
 }
-
-

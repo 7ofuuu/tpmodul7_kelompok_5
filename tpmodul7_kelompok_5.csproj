@@ -8,6 +8,7 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="System.Text.Json" Version="9.0.3" />
     <None Update="tp7_1_103022300053.json">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </None>
