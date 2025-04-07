@@ -1,3 +1,22 @@
+
+// See https://aka.ms/new-console-template for more information
+//using System;
+
+//namespace tpmodul07_kelompok_05
+//{
+//    class Program
+//    {
+//        static void Main(string[] args)
+//        {
+//            DataMahasiswa103022300053.ReadJSON();
+//        }
+//    }
+//}
+
+using System;
+
+namespace tpmodul07_kelompok_05
+
 namespace tpmodul7_kelompok_5
 ﻿using System;
 using System.IO;
@@ -83,6 +102,12 @@ public class KuliahMahasiswa103022300064
         static void Main(string[] args)
         {
 
+            KuliahMahasiswa103022300053.ReadJSON();
+        }
+    }
+}
+
+
             DataMahasiswa103022330117.ReadJSON();
             KuliahMahasiswa103022330117.ReadJSON();
 
@@ -96,3 +121,4 @@ public class KuliahMahasiswa103022300064
         }
     }
 }
+
